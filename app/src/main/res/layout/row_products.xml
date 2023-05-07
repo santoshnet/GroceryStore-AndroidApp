@@ -149,7 +149,8 @@
                             android:paddingBottom="5dp"
                             android:textSize="16dp"
                             android:layout_marginLeft="110dp"
-                            android:visibility="gone" />
+                            android:visibility="gone"
+                            android:text="123"/>
 
                 </RelativeLayout>
             </LinearLayout>
@@ -230,7 +231,7 @@
                     android:paddingTop="3dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="3dp"
-                    android:textColor="@color/white"
+                    android:textColor="@color/black"
                     android:textSize="14dp"
                     android:textStyle="bold" />
 

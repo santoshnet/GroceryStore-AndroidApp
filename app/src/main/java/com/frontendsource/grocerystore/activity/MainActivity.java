@@ -82,7 +82,7 @@ public class MainActivity extends BaseActivity
         if (!outViews.isEmpty()) {
             final TextView titleView = (TextView) outViews.get(0);
             titleView.setGravity(Gravity.CENTER);
-            titleView.setTextColor(Color.parseColor("#69BCFC"));
+            titleView.setTextColor(Color.parseColor("#198908"));
             final Toolbar.LayoutParams layoutParams = (Toolbar.LayoutParams) titleView.getLayoutParams();
             layoutParams.width = ViewGroup.LayoutParams.MATCH_PARENT;
             toolbar.requestLayout();
@@ -330,10 +330,7 @@ public class MainActivity extends BaseActivity
                 startActivity(new Intent(getApplicationContext(), CartActivity.class));
                 overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
                 break;
-            case R.id.nav_my_prescription:
-                startActivity(new Intent(getApplicationContext(), PrescriptionActivity.class));
-                overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                break;
+
 
 
         }

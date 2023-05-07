@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RestClient {
 
-//  public static final String BASE_URL = "http://192.168.1.102/grocerystore/";
+//  public static final String BASE_URL = "http://192.168.111.111/grocerystore/";
    public static final String BASE_URL = "https://freshmart.frontendsourcecode.com/";
 
     public static Retrofit RETROFIT = null;

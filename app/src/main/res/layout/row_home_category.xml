@@ -32,7 +32,7 @@
               android:layout_height="50dp"
               android:layout_centerHorizontal="true"
               android:layout_margin="5dp"
-              android:background="@drawable/medicine_icon"
+              android:background="@drawable/vegetable"
               android:scaleType="fitXY"
               android:visibility="visible" />
 
@@ -51,13 +51,13 @@
             android:background="@color/colorPrimaryDark"
             android:visibility="gone" />
 
-        <com.frontendsource.grocerystore.customfonts.TextViewRegular
+        <com.frontendsource.grocerystore.customfonts.TextViewSemiBold
             android:id="@+id/category_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="All Category"
-            android:textSize="8dp"
+            android:textSize="10dp"
             android:maxLines="2"
             android:textColor="@color/txt_dark_gray"/>
     </LinearLayout>

@@ -90,8 +90,6 @@
             android:exported="true"/>
         <activity android:name="com.frontendsource.grocerystore.activity.ProductViewActivity"
             android:exported="true"/>
-        <activity android:name="com.frontendsource.grocerystore.activity.PrescriptionActivity"
-            android:exported="true"/>
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"

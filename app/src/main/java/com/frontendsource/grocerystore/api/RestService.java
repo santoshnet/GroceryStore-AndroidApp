@@ -2,16 +2,12 @@ package com.frontendsource.grocerystore.api;
 
 
 import com.frontendsource.grocerystore.model.BannerResult;
-import com.frontendsource.grocerystore.model.Bill;
-import com.frontendsource.grocerystore.model.BillResult;
 import com.frontendsource.grocerystore.model.Category;
 import com.frontendsource.grocerystore.model.CategoryResult;
 import com.frontendsource.grocerystore.model.OfferResult;
 import com.frontendsource.grocerystore.model.OrderItem;
 import com.frontendsource.grocerystore.model.OrdersResult;
 import com.frontendsource.grocerystore.model.PlaceOrder;
-import com.frontendsource.grocerystore.model.Prescription;
-import com.frontendsource.grocerystore.model.PrescriptionResult;
 import com.frontendsource.grocerystore.model.ProductResult;
 import com.frontendsource.grocerystore.model.Token;
 import com.frontendsource.grocerystore.model.User;
@@ -96,35 +92,6 @@ public interface RestService {
     @POST("api/v1/singleOrderDetails")
     Call<OrdersResult> getOrderItems(@Body OrderItem orderItem);
 
-    @POST("api/v1/prescriptions")
-    Call<PrescriptionResult> getPrescription(@Body Token token);
-
-    @Multipart
-    @POST("api/v1/upload_prescription")
-    Call<Prescription> uploadPrescription(
-            @Part("name") RequestBody name,
-            @Part("email") RequestBody email,
-            @Part("mobile") RequestBody mobile,
-            @Part("remark") RequestBody remark,
-            @Part("title") RequestBody title,
-            @Part MultipartBody.Part image,
-            @Part("token") RequestBody token
-    );
-
-    @POST("api/v1/bills")
-    Call<BillResult> getBills(@Body Token token);
-
-    @Multipart
-    @POST("api/v1/upload_bills")
-    Call<Bill> uploadBill(
-            @Part("name") RequestBody name,
-            @Part("email") RequestBody email,
-            @Part("mobile") RequestBody mobile,
-            @Part("amount") RequestBody amount,
-            @Part("title") RequestBody title,
-            @Part MultipartBody.Part bill,
-            @Part("token") RequestBody token
-    );
 
 
 }
