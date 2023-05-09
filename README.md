@@ -4,7 +4,7 @@
 
 Grocery Store - Android app is the client side app for ordering medicines.  
 It is free and open source.  
-DrugStore for Android is a companion app for [Grocery Store Web](https://freshmart.frontendsourcecode.com/).  
+Grocery Store for Android is a companion app for [Grocery Store Web](https://freshmart.frontendsourcecode.com/).  
 Grocery Store WebApp is for administration of orders on the admin(DrugStore) side.
 
 
@@ -31,8 +31,6 @@ The android app lets you:
 - Super simple sign up process with auto verification of OTP.
 - Completely ad-free.
 - Material Design.
-- Specify medicine names.
-- Or take picture of prescription and order.
 - Realtime update.
 - Update minimum order value in realtime.
 - Block specific users from ordering.
