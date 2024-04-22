@@ -58,7 +58,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 /**
- * Drug App
+ * Grocery Store
  * https://github.com/quintuslabs/GroceryStore
  * Created on 18-Feb-2019.
  * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
